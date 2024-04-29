@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group = 'ru.dpqa'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+compileTestJava {
+    options.encoding = 'UTF-8'
+}
+
+dependencies {
+}
+
+test {
+    useJUnitPlatform()
+}
